@@ -43,7 +43,7 @@ function loadWidget(waifuPath, apiPath) {
 			Live2D.captureFrame = true;
 		});
 		$("#waifu-tool .fa-info-circle").click(() => {
-			open("https://github.com/stevenjoezhang/live2d-widget");
+			open("https://github.com/Hunter2333/live2d-widget");
 		});
 		$("#waifu-tool .fa-times").click(() => {
 			localStorage.setItem("waifu-display", new Date().getTime());
@@ -224,7 +224,7 @@ function loadWidget(waifuPath, apiPath) {
 function initWidget(waifuPath = "/waifu-tips.json", apiPath = "") {
 	if (screen.width <= 768) return;
 	$("body").append(`<div id="waifu-toggle" style="margin-left: -100px;">
-			<span>看板娘</span>
+			<span>I'm here</span>
 		</div>`);
 	$("#waifu-toggle").hover(() => {
 		$("#waifu-toggle").animate({ "margin-left": -30 }, 500);
